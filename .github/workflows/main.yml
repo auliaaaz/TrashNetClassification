@@ -1,11 +1,11 @@
 name: Run Notebook
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   notebook:
@@ -42,4 +42,3 @@ jobs:
       with:
         name: trained-model
         path: best_model.pth
-        
