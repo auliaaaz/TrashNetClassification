@@ -29,8 +29,7 @@ To set up the project, follow these steps:
 Open TrashNetClassification.ipynb in Jupyter Notebook or any compatible platform to train or evaluate the model.
 
 2. Use the Pretrained Model:
-Directly use the provided ```best_model.pth``` for testing or fine-tuning.
-Model download URL: https://github.com/auliaaaz/TrashNetClassification/actions/runs/12453547135/artifacts/2353378179
+Directly use the provided ```best_model.pth``` for testing or fine-tuning. [Link](https://huggingface.co/rockettman/trashnet-classification/tree/main)
 
 3. Automated Workflow:
 The workflow file ```.github/workflows/run-notebook.yml``` automates the training and evaluation process. Simply trigger the workflow manually or on code pushes to reproduce results.
