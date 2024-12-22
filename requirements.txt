@@ -1,0 +1,13 @@
+jupyter
+nbconvert 
+matplotlib==3.8.0
+seaborn==0.13.2 
+scikit-learn==1.6.0
+torch @ https://download.pytorch.org/whl/cu121_full/torch-2.5.1%2Bcu121-cp310-cp310-linux_x86_64.whl
+torchsummary==1.5.1
+torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.20.1%2Bcu121-cp310-cp310-linux_x86_64.whl
+datasets==3.2.0
+numpy==1.26.4
+pandas==2.2.2
+wandb==0.19.1
+tqdm==4.67.1
